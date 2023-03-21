@@ -100,7 +100,7 @@ z-index: 0;
     right: -30px;
     top: -30px;
     bottom: -30px;
-    background-image: url(/test/assets/image/certificateD.svg);
+    background-image: url(/test/src/assets/image/certificateD.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -135,7 +135,7 @@ margin: 0 12px;
     .box {
         strong{
             &:after{
-    background-image: url(/test/assets/image/certificateA.svg);
+    background-image: url(/test/src/assets/image/certificateA.svg);
     bottom: -40px;
 }
         }

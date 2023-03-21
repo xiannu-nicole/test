@@ -10,9 +10,9 @@
       </div>
       <div class="box">
         <div class="bubble-box">
-          <img class="bubble" src="/test/assets/image/泡泡.png" alt="" />
-          <img class="sup" src="/test/assets/image/sup2.svg" alt="" />
-          <img class="board" src="/test/assets/image/船槳.png" alt="" />
+          <img class="bubble" src="/test/src/assets/image/泡泡.png" alt="" />
+          <img class="sup" src="/test/src/assets/image/sup2.svg" alt="" />
+          <img class="board" src="/test/src/assets/image/船槳.png" alt="" />
         </div>
         <div>
           <h5>paragraph</h5>
@@ -41,14 +41,14 @@
           </ol>
         </div>
         <div class="fireworks-box">
-          <img class="sup" src="/test/assets/image/sup.svg" alt="" />
-          <img class="fireworks" src="/test/assets/image/煙火.svg" alt="" />
+          <img class="sup" src="/test/src/assets/image/sup.svg" alt="" />
+          <img class="fireworks" src="/test/src/assets/image/煙火.svg" alt="" />
         </div>
       </div>
     </div>
       <div class="autoplay">
-        <img class="wave-bg" src="/test/assets/image/海浪.png" alt="" />
-        <img class="wave-bg" src="/test/assets/image/海浪.png" alt="" />
+        <img class="wave-bg" src="/test/src/assets/image/海浪.png" alt="" />
+        <img class="wave-bg" src="/test/src/assets/image/海浪.png" alt="" />
     </div>
   </div>
 </template>
@@ -67,7 +67,7 @@
     right: 0;
     top: 0;
     bottom: 0;
-    background: url(/test/assets/image/白色海浪.png) no-repeat center/cover;
+    background: url(/test/src/assets/image/白色海浪.png) no-repeat center/cover;
     z-index: -1;
   }
 .container{
@@ -150,7 +150,7 @@ h2 {
       height: 28px;
       top: 50%;
       transform: translateY(-50%);
-      background: url(/test/assets/image/cactus.png) no-repeat center/contain;
+      background: url(/test/src/assets/image/cactus.png) no-repeat center/contain;
     }
     &:before {
       left: -30px;

@@ -161,7 +161,7 @@ export default {
           class="form-btn success"
         >
           <div class="d-flex align-items-center justify-content-center">
-            <img src="/test/assets/image/success.svg" class="me-2" alt="" />
+            <img src="/test/src/assets/image/success.svg" class="me-2" alt="" />
             <span>success</span>
           </div>
         </a>
@@ -173,7 +173,7 @@ export default {
           <a class="form-btn failure mb-2">
             <div>
               <div class="d-flex align-items-center justify-content-center">
-                <img src="/test/assets/image/failure.png" class="me-2" alt="" />
+                <img src="/test/src/assets/image/failure.png" class="me-2" alt="" />
                 <span>failure</span>
               </div>
             </div>
@@ -233,7 +233,7 @@ h5 {
   }
   select {
     appearance: none;
-    background: url("/test/assets/image/down.png") no-repeat 97% center/11px 7px;
+    background: url("/test/src/assets/image/down.png") no-repeat 97% center/11px 7px;
   }
   select,
   input {

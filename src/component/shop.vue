@@ -16,7 +16,7 @@ export default {};
     <div class="box">
         <div class="container">
             <p>Neque porro quisquam<br>est qui dolorem!</p>
-            <img class="mt-4" src="/test/assets/image/market.svg" alt="market">
+            <img class="mt-4" src="/test/src/assets/image/market.svg" alt="market">
       </div>
     </div>
   </div>
@@ -40,7 +40,7 @@ export default {};
       width: 200px;
       height: 200px;
       object-fit: contain;
-      background: url(/test/assets/image/lighthouse.svg) no-repeat center/contain;
+      background: url(/test/src/assets/image/lighthouse.svg) no-repeat center/contain;
     }
     p {
       width: fit-content;
