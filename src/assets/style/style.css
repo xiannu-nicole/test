@@ -1,0 +1,34 @@
+a.form-btn {
+  background: #B57556;
+  color: #fff;
+  box-shadow: 0px 0px 20px rgba(250, 163, 163, 0.91);
+  border-radius: 50vh;
+  padding: 16px 20px;
+  font-size: 20px;
+  width: 200px;
+  letter-spacing: 0.2em;
+  margin: 32px 0;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  font-family: "Noto Sans TC";
+}
+
+.container {
+  padding: 60px 24px 8px;
+  max-width: 808px;
+}
+
+img {
+  width: 100%;
+  object-fit: contain;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* Primary Color 2 *//*# sourceMappingURL=style.css.map */
