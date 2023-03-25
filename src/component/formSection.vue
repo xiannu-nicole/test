@@ -21,12 +21,10 @@ export default {
     };
   },
 
-
-
   watch: {
 
     store(value) {
-            this.submit = true,
+    this.submit = true,
       this.submitFailure = false;
       this.submitSuccess = false;
       if (value === "") {
@@ -36,27 +34,27 @@ export default {
       }
     },
     name() {
-            this.submit = true,
+    this.submit = true,
       this.submitFailure = false;
       this.submitSuccess = false;
-      if (/[0-9]/.test(this.name)) {
+      if (/[^\u4e00-\u9fa5a-zA-Z]/.test(this.name)) {
         this.nameSituation = "wrong";
       } else {
         this.nameSituation = "";
       }
     },
     phone() {
-            this.submit = true,
+    this.submit = true,
       this.submitFailure = false;
       this.submitSuccess = false;
-      if (!/\d/.test(this.phone) || this.phone.length != 10) {
+      if (!/\d/.test(this.phone) || this.phone.length !== 10) {
         this.phoneSituation = "wrong";
       } else {
         this.phoneSituation = "";
       }
     },
     amount() {
-            this.submit = true,
+    this.submit = true,
       this.submitFailure = false;
       this.submitSuccess = false;
       if (!/\d/.test(this.amount) || Number(this.amount) <= 0) {
@@ -66,7 +64,7 @@ export default {
       }
     },
     pay(value) {
-            this.submit = true,
+    this.submit = true,
       this.submitFailure = false;
       this.submitSuccess = false;
       if (value === "") {
